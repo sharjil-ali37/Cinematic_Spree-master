@@ -83,19 +83,6 @@ class _BookingScreenState extends State<BookingScreen> {
         // home: Scaffold(
          appBar: AppBar(
             title: const Text('Booking Panel'),
-            actions: [
-           
-            ElevatedButton(onPressed:(){
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) =>
-                      RazorPay()
-                  
-                    
-                ));
-            }, child:  const Image(image: AssetImage("assets/images/payment1.png"),height: 600,width: 100,),)
-            ],
             
           ),
           body: Center(

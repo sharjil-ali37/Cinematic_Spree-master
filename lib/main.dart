@@ -2,7 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 // ignore: depend_on_referenced_packages
 import 'package:intl/date_symbol_data_local.dart';
-import 'package:login/screens/signin_screen.dart';
+import 'package:login/screens/home/splashScreen2.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: "Open-Sans",
       ),
-      home: const SignInScreen(),
+      home: SplashScreen(),
     );
   }
 }
